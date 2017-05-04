@@ -38,6 +38,7 @@ public class Mario extends MovingImage {
 		vY+= 0.3;
 		super.y += vY;
 		
+		System.out.println("Hi");
 		/*
 		if(false){
 			for(int i = 0; i<obstacles.size(); i++){
